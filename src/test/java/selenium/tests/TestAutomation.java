@@ -35,6 +35,7 @@ public class TestAutomation {
                 .until(d -> d.findElement(home.logoHome));
         var imgHome =  driver.findElement(home.logoHome);
         imgHome.isDisplayed();
+        System.out.println(">>Getting home logo element");
 
         //Title and image assertion
         Assert.assertEquals(expectedTitle, pageTitle);
