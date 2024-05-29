@@ -57,7 +57,7 @@ public class TestAutomation {
         //Close Driver
         if (driver != null) {
             driver.quit();
-            System.out.println(">>Ending session.")
+            System.out.println(">>Ending session.");
         }
     }
 }
